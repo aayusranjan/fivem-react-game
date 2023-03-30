@@ -1,0 +1,21 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.75rem;
+}
+
+/* .App-title {
+  font-size: 5em;
+  color: var(--color-light);
+  margin-bottom: 3vmin;
+  text-align: center;
+} */
+
+@media screen and (max-width: 500px) {
+    .App-title {
+        font-size: 4em;
+    }
+}
